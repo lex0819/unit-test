@@ -18,7 +18,7 @@ b. Сравнивает эти средние значения и выводит
 
 ## Класс TestListComparator
 
-См. код класса ListComparator с тестами в файле [TestListComparator.py](./TestListComparator.py)
+См. код класса ListComparator с тестами на unittest в файле [TestListComparator.py](./TestListComparator.py)
 
 
 ## Важно:

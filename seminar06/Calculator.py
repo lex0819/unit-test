@@ -1,3 +1,6 @@
+import unittest
+
+
 class Calculator:
 
     def add(self, a, b):
@@ -13,9 +16,6 @@ class Calculator:
         if b == 0:
             raise ValueError("Деление на ноль недопустимо")
         return a / b
-
-
-import unittest
 
 
 class TestCalculator(unittest.TestCase):
