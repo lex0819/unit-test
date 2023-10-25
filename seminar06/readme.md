@@ -16,9 +16,15 @@ b. Сравнивает эти средние значения и выводит
 
 См. код класса ListComparator с методами вычисления среднего и сравнения списков в файле [ListComparator.py](./ListComparator.py)
 
-## Класс TestListComparator
+
+## Класс TestListComparator c UnitTest
 
 См. код класса ListComparator с тестами на unittest в файле [TestListComparator.py](./TestListComparator.py)
+
+
+## Файл ListComparatorPytest c Pytest
+
+См. тесты pytest в файле с тестами [ListComparatorPytest](./ListComparatorPytest.py)
 
 
 ## Важно:
@@ -28,7 +34,3 @@ b. Сравнивает эти средние значения и выводит
 Используйте Pytest (для Python) для написания тестов, которые проверяют правильность работы программы.
 
 Тесты должны учитывать различные сценарии использования вашего приложения.
-
-Используйте pylint (для Python) для проверки качества кода.
-
-Сгенерируйте отчет о покрытии кода тестами. Ваша цель - достичь минимум 90% покрытия.
