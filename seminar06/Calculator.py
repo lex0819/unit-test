@@ -61,11 +61,3 @@ class TestCalculator(unittest.TestCase):
     def test_expected_failure(self):
         result = self.calculator.add(2, 2)
         self.assertEqual(result, 5, "Ожидаемый провал")
-
-
-
-
-
-# if __name__ == "__main__":
-#     calc = Calculator()
-#     print(calc.sum(1, 2))
